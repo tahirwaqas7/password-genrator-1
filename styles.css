@@ -1,0 +1,110 @@
+/* Your existing styles here */
+
+.password-generator {
+    text-align: center;
+    margin: 10% auto;
+}
+
+
+.header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    /* Green color for the header */
+}
+
+.password-box {
+    background-color: #f0f0f0;
+    /* Light gray background */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow effect */
+}
+
+#password {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #4CAF50;
+    /* Green border for the password box */
+    padding: 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+#password:focus {
+    border-color: #45a049;
+}
+
+#generate {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+#generate:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+
+
+
+/* Your existing styles here */
+
+body {
+    background:
+        linear-gradient(to bottom, #30384d, #1b273d),
+        /* Dark gradient */
+        url('your-background-image.jpg') repeat;
+    /* Background image */
+    color: #ffffff;
+    /* Text color */
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    animation: neonBackground 4s linear infinite alternate;
+    /* Neon animation */
+}
+
+@keyframes neonBackground {
+    0% {
+        filter: brightness(1) contrast(1.2) hue-rotate(180deg);
+    }
+
+    100% {
+        filter: brightness(1.2) contrast(1) hue-rotate(0deg);
+    }
+}
+
+/* Additional styles for other page elements */
+
+/* Your existing styles here */
+
+.header {
+    background: linear-gradient(to right, #0099FF, #FF66CC, #FF3366);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    /* Reduce the font size to make it smaller */
+}
+
+
+
+.main-content {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Additional styles for the password generator and spell checker */
